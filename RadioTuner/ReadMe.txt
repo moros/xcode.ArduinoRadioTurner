@@ -7,7 +7,7 @@
   Project RadioTuner
   Created by Doug Mason on 6/30/18
   Copyright © 2018 Doug Mason
-  Licence <#licence#>
+  Licence MIT
 
 
 

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+      table, th, td {
+          border: 1px solid #dddddd;
+          border-collapse: collapse;
+          font-family: arial, sans-serif;
+      }
+     h2, h3, p, li {
+         font-family: arial, sans-serif;
+     }
+      summary {
+          font-family: arial, sans-serif; font-size: 18px; font-weight: bold;
+      }
+button { background-color: #f9f9f9; color: #444; padding: 2px 4px; text-align: center; display: inline-block; margin: 2px 4px; border: 1px solid #DBDBDB; border-radius: 6px; } 
+button:hover { transition-duration: 0.4s; border: 1px solid #0667E4; background-color: #4D98FE; color: white; }
+button:active { transition-duration: 0.4s; border: 1px solid #0037DD; background-color: #0667E4; color: white; }
+   </style>
+   <script>
+       function myFunction(item) {
+           var x = document.getElementById(item);
+           if (x.style.display === 'none') { 
+               x.style.display = 'block'; 
+           } else { 
+               x.style.display = 'none'; 
+           }
+       } 
+   </script>
+</head>
+<body>
+<h2>embedXcode &bull; Platforms and MCUs Report</h2>
+<h3>Summary</h3>
+<table style="width:720px">
+  <col width="30%"></col>
+  <col width="15%"></col>
+  <col width="55%"></col>
+  <tr bgcolor=#dddddd>
+    <th>Plaforms and MCUs</th>
+    <th>Items</th>
+    <th>Comment</th>
+  </tr>
+<tr>
+  <td>Not found</td>
+  <td  bgcolor=#64B5F6 align="center">17</td>
+  <td><button onclick="myFunction('C4')">Show</button>
+<i>Not found or not installed</i>  </td>
+</tr>
+<tr>
+  <td>Configuration</td>
+  <td></td>
+  <td><button onclick="myFunction('C9')">Show</button></td></tr>
+</table>
+<div id='C4' style='display:none;'>
+<br>
+<h3>Not found <button onclick="myFunction('C4')">Hide</button></h3>
+<table style="width:720px">
+  <col width="10%"></col>
+  <col width="20%"></col>
+  <col width="15%"></col>
+  <col width="15%"></col>
+  <col width="15%"></col>
+  <col width="25%"></col>
+  <tr bgcolor=#dddddd>
+    <th>IDE</th>
+    <th>Platform</th>
+    <th>MCU</th>
+    <th>Installed Release</th>
+    <th>Expected Release</th>
+    <th>Comment</th>
+  </tr>
+<tr>
+  <td>Arduino</td>
+  <td>arduino</td>
+  <td align="center">(ide)</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">1.8.5</td>
+<td>(IDE) <i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Arduino</td>
+  <td>arduino</td>
+  <td align="center">avr</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">1.6.20</td>
+<td>(internal) <i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Arduino</td>
+  <td>arduino</td>
+  <td align="center">avr</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">1.6.21</td>
+<td><i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Arduino</td>
+  <td>arduino</td>
+  <td align="center">nrf52</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">1.0.2</td>
+<td><i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Arduino</td>
+  <td>arduino</td>
+  <td align="center">sam</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">1.6.11</td>
+<td><i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Arduino</td>
+  <td>arduino</td>
+  <td align="center">samd</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">1.6.18</td>
+<td><i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Arduino</td>
+  <td>arduino</td>
+  <td align="center">stm32f4</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">1.0.1</td>
+<td><i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Arduino</td>
+  <td>chipkit</td>
+  <td align="center">pic32</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">2.0.5</td>
+<td><i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Arduino</td>
+  <td>esp32</td>
+  <td align="center">dfrobot_firebeetle-esp32</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">0.0.7</td>
+<td><i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Arduino</td>
+  <td>esp8266</td>
+  <td align="center">esp8266</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">2.4.1</td>
+<td><i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Arduino</td>
+  <td>ftduino</td>
+  <td align="center">avr</td>
+  <td bgcolor=#1E88E5 align="center">0</td>
+  <td align="center">0.0.6</td>
+<td><i>Beta!</i> - <i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Energia</td>
+  <td>energia</td>
+  <td align="center">(ide)</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">1.6.10E18</td>
+<td>(IDE) <i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Energia</td>
+  <td>energia</td>
+  <td align="center">msp430</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">1.0.3</td>
+<td>(internal) <i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Energia</td>
+  <td>energia</td>
+  <td align="center">msp430</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">1.0.3</td>
+<td><i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Energia</td>
+  <td>energia</td>
+  <td align="center">msp432</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">3.8.0</td>
+<td><i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Energia</td>
+  <td>energia</td>
+  <td align="center">msp432r</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">5.6.1</td>
+<td><i>Not found or not installed</i></td>
+</tr>
+<tr>
+  <td>Teensyduino</td>
+  <td>teensy</td>
+  <td align="center">arm</td>
+  <td bgcolor=#64B5F6 align="center">0</td>
+  <td align="center">1.41</td>
+<td>(IDE) <i>Not found or not installed</i></td>
+</tr>
+</table>
+</div>
+<div id='C9' style='display:none;'>
+<br>
+<h3>Configuration <button onclick="myFunction('C9')">Hide</button></h3>
+<table style="width:720px">
+  <col width="35%"></col>
+  <col width="65%"></col>
+  <tr bgcolor=#dddddd>
+    <th>Item</th>
+    <th>Version</th>
+  </tr>
+<tr>
+  <td>Date</td>
+  <td>2018-06-30 13:56:47</td>
+</tr>
+<tr>
+  <td>embedXcode</td>
+  <td>9.4.4 (Jun 16, 2018)</td>
+</tr>
+<tr>
+  <td>Utility</td>
+  <td>embedXcode_prepare 8.2.5 (May 21, 2018)</td>
+</tr>
+<tr>
+  <td>Model</td>
+  <td>15" MacBook Pro with Thunderbolt 3 and Touch ID (Mid 2017)
+</td>
+</tr>
+<tr>
+  <td>Xcode</td>
+  <td>9.4.1 (9F2000), 10.0 (10L176w)  </td>
+</tr>
+<tr>
+  <td>Mac OS X</td>
+  <td>10.14 (18A314h)</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

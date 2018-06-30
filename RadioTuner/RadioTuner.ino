@@ -8,10 +8,10 @@
 // 				Doug Mason
 //
 // Date			6/30/18 1:51 PM
-// Version		<#version#>
+// Version		1.0
 //
 // Copyright	© Doug Mason, 2018
-// Licence		<#licence#>
+// Licence		1.0
 //
 // See         ReadMe.txt for references
 //
