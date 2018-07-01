@@ -22,19 +22,19 @@
 # !!! Help: http://bit.ly/2hYLBDC
 # default = 0 = none
 #
-# ARDUINO : AVR = EEPROM HID SPI SoftwareSerial Wire 
+ARDUINO : AVR = EEPROM HID SPI SoftwareSerial Wire
 # ARDUINO : common = Bridge Esplora Ethernet Firmata GSM 
 #	LiquidCrystal RobotIRremote Robot_Control Robot_Motor SD Servo 
 #	SpacebrewYun Stepper TFT Temboo WiFi 
 #
-APP_LIBS_LIST = 0
+APP_LIBS_LIST = Wire EEPROM
 
 # List user's libraries here
 # !!! Help: http://bit.ly/2AEscDx
 # default = 0 = none
 #
 #
-USER_LIBS_LIST = 0
+USER_LIBS_LIST = LiquidCrystal ArduinoTEA5767
 
 # List core, application and user's libraries to be excluded
 # !!! Help: http://bit.ly/2AijUOI
@@ -59,6 +59,7 @@ USER_LIBS_LIST = 0
 # If not defined, BOARD_PORT = /dev/tty.usb* (default)
 #
 #BOARD_PORT = /dev/tty.usbmodem*
+BOARD_PORT = /dev/tty.usbserial-14410
 
 # Xcode takes SKETCHBOOK_DIR from preferences.txt
 # If not defined, each IDE has its own SKETCHBOOK_DIR (default)
